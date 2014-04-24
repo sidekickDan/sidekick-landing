@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" >
+        <name>sidekick-landing</name>
+        <creationDate>2014-2-7</creationDate>
+        <author>Danny Leary</author>
+        <authorEmail>danny@shoutoutadvertising.com</authorEmail>
+        <authorUrl>http://dannyleary.com/</authorUrl>
+        <copyright>Danny Leary 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>1.1.0</version>
+        <description>
+			
+			<![CDATA[
+			<div class="span12">
+			
+			<div class="span6">
+			<hr />
+			<h3>ABOUT THIS TEMPLATE</h3>
+			<hr /><br />
+			<p>StartBootstrap's "Landing Page" Mobile Responsive Template Ported to Joomla by Danny Leary.</p><br />
+			<hr>
+			<p>This template is in actuality the <a href="http://startbootstrap.com/landing-page" target="blank">"Landing Page" template designed by Start Bootstrap</a>. It was designed as a free Mobile Responsive template based on Bootstrap 3. I modified it so that it could be used in a Joomla environment because of it's well designed layouts, mobile first philosophy, and the need for an effective yet simple approach for building client websites. The goal is to give designers familiar with css an easier and more consistent way of creating a mobile responsive site without having to create all sorts of crazy breakpoints, custom css classes, etc that are hard to remember and keep consistent among contractors who work on a site. Below you will find some notes and tips. Feel free to modify in harmony with the license the original template was released under. </p>
+
+			<p>Please let me know if you find any bugs or possible features to add that are missing. CONTACT ME VIA <a target="blank" href="HTTP://DANNYLEARY.COM">HTTP://DANNYLEARY.COM</a></p>
+			
+			</div>
+			
+			<div class="span6">
+
+			<hr>
+			<h3>HELPFUL NOTES</h3>
+			<p><b>CSS classes</b> - To help control layouts and make use of built in typography consult the  GetBootstrap Website - <a target="blank" href="http://getbootstrap.com/css/"> http://getbootstrap.com/css/</a></p>
+
+			<p><b>Layout Tips</b> - The main template controls layouts using the above css classes. For example, "col-lg-4, col-md-4, col-sm-4, col-xs-4, push, pull, etc etc" so study up on bootstrap 3. I included some feature positions with sample module width layouts as examples. Feel free to add as many as you need in whatever configuration. There's css support in bootstrap 3 for fixed width and fluid width websites. So again, study up on bootstrap 3!</p>
+			
+			<p><b>Fixed Width vs Fluid Width</b> - Bootstrap has support for both. Consult their css page above for more information. For example, on the .container class you can change it to, .container-fluid, and it should make it a fluid width. However, you might set a css style on it to limit the width on really wide screen sizes such as those over 2 or 3 thousand pixels so layouts don't get destroyed on super larger monitors. </p>
+
+			<p><b>Hiding and Displaying Modules Based On Screen Size</b> - Study bootstrap 3's responsive utility classes to hide or display modules on a certain view. This is helpful if you want some call buttons to be displayed on a phone view, but not seen on a desktop or tablet view. Classes such as ... visible-lg, visible-md, hidden-lg, hidden-md  ... can be added to the module class suffix field of modules to selectively hide/display content based on screen sizes. <a target="blank" href="http://getbootstrap.com/css/#responsive-utilities">http://getbootstrap.com/css/#responsive-utilities</a></p>
+
+			<p><b>Main Menu</b> - Just place your main menu into a menu module and place it into the navigation position. In the advanced settings for the menu module, under "Alternative Layout" select the "MainNavigation" layout we created to make the menu module compatible with bootstraps already built in mobile menu css.</p>
+
+			<p><b>Logo</b> - Just place an image or some text that's linkable to your homepage into a custom html module and place it in the logo position.</p>
+
+			<p><b>Icons</b> - If you notice, bootstrap has classes built in to use icons on text. See the original Landing Page template on StartBootstraps website for an example. It does this by means of the html tag "i" with a class added, where the class will correspond to a particular icon. Joomla editors though strip this tag sometimes, so if you have issues with using them, be sure to check your chosen site editor's documentation on how to prevent this.</p>
+			
+			<p><b>Sidebar</b> - You can move the sidebar to the left or right of the content area by just editting the css classes on those divs in your template.</p><br /><br />
+			</div>
+			
+			</div>
+			]]>
+		
+		</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <filename>template_preview.png</filename>
+                <filename>template_thumbnail.png</filename>
+                <folder>img</folder>
+                <folder>css</folder>
+                <folder>js</folder>
+				<folder>html</folder>
+                <folder>fonts</folder>
+                <folder>font-awesome</folder>
+				<filename>favicon.ico</filename>
+				<filename>component.php</filename>
+				<filename>error.php</filename>
+				<filename>README.TXT</filename>
+        </files>
+        <positions>
+				
+				<position>banners-sidebar-top</position>
+				<position>banners-sidebar-bottom</position>
+				<position>banners-featured-top</position>
+				<position>banners-header-right</position>
+				<position>banners-alert</position>
+                <position>breadcrumb</position>
+                <position>logo</position>
+                <position>sidebar-a</position>
+                <position>header</position>
+                <position>navigation</position>
+                <position>showcase-a</position>
+				<position>showcase-b</position>
+				<position>promotion</position>
+				<position>highlight</position>
+				<position>highlight-a</position>
+				<position>highlight-b</position>
+                <position>feature-a</position>
+                <position>feature-b</position>
+                <position>feature-c</position>
+                <position>feature-d</position>
+                <position>feature-row-a</position>
+                <position>feature-e</position>
+                <position>feature-f</position>
+                <position>feature-g</position>
+                <position>utility-a</position>
+                <position>utility-b</position>
+                <position>utility-c</position>
+                <position>utility-d</position>
+                <position>content-top-a</position>
+                <position>content-top-b</position>
+                <position>content-bottom-a</position>
+                <position>content-bottom-b</position>
+                <position>bottom-a</position>
+                <position>bottom-b</position>
+                <position>bottom-c</position>
+				<position>bottom-info-a</position>
+                <position>bottom-info-b</position>
+                <position>bottom-info-c</position>
+                <position>bottom-info-d</position>
+                <position>footer</position>
+                <position>404errorpage</position>
+                <position>menu-top</position>
+                <position>logo-top</position>
+                <position>popup</position>
+                <position>debug</position>
+                
+        </positions>
+		<config>
+		<fields name="params">
+			<fieldset name="options">
+				
+				
+				
+				<field name="SidebarWidthSize"  class="" type="text" default="4"
+					label="Sidebar Width (Hover for more explanation.)"
+					description="Set the Width of the SIDEBAR. Based on Bootstrap's 12-grid numbering designations. You can enter a whole number between 1 and 12 (no pixels or percentages). For the sidebar width we recommend either 3 or 4. Default is set to 4."
+					 />
+					 
+				<field name="SidebarLocation" type="list" default="0"
+					label="Sidebar Location (Right or Left of Article)"
+					description="Choose whether you'd prefer the sidebar to appear on the left or right of the Article or Component Area."
+					
+				>
+					<option value="0">Right</option>
+					<option value="1">Left</option>
+					
+				</field>
+				
+				<field name="ComponentHomePage" type="list" default="0"
+					label="Hide Component On Home Page"
+					description="Choose whether you want to show the component on the homepage or not. Useful if you just want the homepage to consist of modules."
+				>
+					<option value="0">Display</option>
+					<option value="1">Hide</option>
+					
+				</field>
+				
+				<field name="BaseGridChoice" type="list" default="1"
+					label="Base Grid Size (Bootstrap 3 - lg, md, sm, xs)"
+					description="With Bootstrap 3 you can control when div's on the same row float left of each other or stack based on screen size. With their new column system you get finer control. The classes col-lg-#, col-md-#, col-sm-#, and col-xs-# can all be used to set the number of columns a div should occupy; similar to the .span# class of Bootstrap 2. The different versions such as lg, md, sm, and xs let you adjust the number of columns you want to assign a div at different screen sizes - so for large screen (lg) you can give a div 4 columns, but for a small screen (sm) you can give that same div 6 columns if you like. You can use all versions of the classes for every div if you want or only when you want to fine-tune the width of div's at different screen sizes (Modify the html all you like :) . We kept the template simple and assigned one version of the grid class to the div's. This control lets you set/change the base grid version across the board to make life a little easier if you want to change when the div's stack without messing with all the html. If you're not sure what this means then the default should be fine. See bootstrap 3's explanations of the grid classes. You can also go in and add grid classes in addition to this base one or change them however you want! This is just here for the convenience of some. Wow, that was a long bubble tooltip! :)"
+				>
+					<option value="0">Large (lg)</option>
+					<option value="1">Medium (md)</option>
+					<option value="2">Small (sm)</option>
+					<option value="3">Extra Small (xs)</option>
+					
+				</field>
+				
+				<field name="google-analytics-code"  type="textarea" rows="10"  default=""
+					label="Google Analytics Code"
+					description="Paste In the Complete Code From Google And Make Sure It Is NOT Wrapped In SCRIPT tags. Just Paste In What's In Between the Tags. "
+					filter="string" />
+				
+				<field name="bodyFontSize"  class="" type="text" default="15px"
+					label="Body Font Size (px or percent)"
+					description="Enter the value with either px or percent."
+					 />
+				
+				<field name="paragraphFontSize"  class="" type="text" default="115%"
+					label="Paragraph Font Size (px or percent)"
+					description="Enter the value with either px or percent."
+					 />
+					
+				<field name="h1FontSize"  class="" type="text" default="500%"
+					label="H1 Font Size (px or percent)"
+					description="Enter the value with either px or percent."
+					 />
+					
+				<field name="h2FontSize"  class="" type="text" default="200%"
+				label="H2 Font Size (px or percent)"
+				description="Enter the value with either px or percent."
+				/>
+				
+				<field name="h3FontSize"  class="" type="text" default="180%"
+				label="H3 Font Size (px or percent)"
+				description="Enter the value with either px or percent."
+				 />
+				
+				<field name="h4FontSize"  class="" type="text" default="150%"
+				label="H4 Font Size (px or percent)"
+				description="Enter the value with either px or percent."
+				 />
+
+			</fieldset>
+			
+			
+		</fields>
+		
+	</config>
+</extension>
