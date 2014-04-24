@@ -199,7 +199,7 @@ unset($doc->_styleSheets['/administrator/components/com_pmform/assets/bootstrap/
                     <span class="icon-bar"></span>
 					<span class="menu-text">Menu</span>
                 </button>
-				<div class=" logo col-md-12"><jdoc:include type="modules" name="logo" style="suffixOnce" /></div>
+				<div class=" logo "><jdoc:include type="modules" name="logo" style="suffixOnce" /></div>
                 
             </div>
 
