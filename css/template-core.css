@@ -86,7 +86,7 @@
 		.navbar-toggle .icon-bar {width: 35px;height: 3px;}
 		.navbar-default .navbar-toggle .icon-bar {background-color: #FFF;}
 		.navbar-toggle .menu-text {font-weight:normal;color:#ffffff;font-size:70%;}
-		.navbar-default .navbar-toggle {border-color: transparent;background: #333;margin: 0px;padding: 9px 12px 3px 12px;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;height: 75px !important;}
+		.navbar-default .navbar-toggle {border-color: transparent;background: #333;margin: 0px;padding: 9px 12px 3px 12px;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;height: 78px !important;}
 		.navbar-default .navbar-toggle:hover {border-color:#7FC2EE;background-color:#7FC2EE;}
 		.navbar-default .navbar-toggle:focus {border-color:#333;background-color:#333;}
 		
@@ -142,12 +142,13 @@
 /* ERROR PAGE SPECIFIC STYLES - USE the ID, #errorpage-styles, to specify just this page. */
 		#errorpage-styles p {font-size:22px;}
 		#errorpage-styles .errorpage-errorType-box {display:none;}
-		#errorpage-styles .banner {min-height:600px;padding:200px 0px;}
+		#errorpage-styles .banner {min-height:600px;padding:100px 0px;}
 		#errorpage-styles .banner {background: transparent;}
 		#errorpage-styles .banner h2, #errorpage-styles .banner h1 {color: #38B3E0;}
 		#errorpage-styles p {color: #000000;text-shadow: 2px 2px 1px #FFF;font-size: 25px;}
-		#errorpage-styles p a.btn-primary {text-shadow: 0px 0px 0px #FFF;font-size: 35px;padding:15px 50px;}
-		body#errorpage-styles  {background: url(../img/bg-children.jpg) no-repeat scroll center 300px #ffffff;background-attachment:fixed;}
+		#errorpage-styles p a.btn-primary {text-shadow: 0px 0px 0px #FFF;font-size: 30px;padding:15px 50px;}
+		body#errorpage-styles  {padding:15px;}
+		#errorpage-styles .navbar {margin-top: 0px;}
 
 
 /* PRINT PAGE SPECIFIC STYLES - USE the ID, #printPageStyles, to specify just this page. */
@@ -256,6 +257,7 @@
 		.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {float: left;margin-left: -20px;}
 		@media (min-width: 800px) {	.contact-category ul li {float: left;width: 45%;	display: inline;position: relative;} }
 		#mainContentArea > div.contact > div.contact-form, #mainContentArea > div.contact h3 {clear: both;}
+		input#jform_contact_email_copy {box-shadow: 0px 0px 0px;-moz-box-shadow: 0px 0px 0px;-webkit-box-shadow: 0px 0px 0px;width: 20px !important;}
 		
 		/* LOGIN FORM FIX FOR SOME BROWSER LIKE FIREFOX */
 		.login {clear:both;}

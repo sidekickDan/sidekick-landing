@@ -24,8 +24,12 @@ $this->direction = $doc->direction;
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
+
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $this->error->getCode(); ?> - <?php echo htmlspecialchars($this->error->getMessage()); ?></title>
+	
 	<?php if ($this->direction == 'rtl') : ?>
 	<link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/system/css/error_rtl.css" type="text/css" />
 	<?php endif; ?>
@@ -50,13 +54,14 @@ $this->direction = $doc->direction;
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
   
-    <link href="<?php  echo JURI::base(); ?>templates/<?php echo $this->template; ?>/css/landing-page.css" rel="stylesheet">
-	<link rel="stylesheet" href="<?php  echo JURI::base(); ?>templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
+
+	<link rel="stylesheet" href="<?php  echo JURI::base(); ?>templates/<?php echo $this->template; ?>/css/template-core.css" type="text/css" />
 	
 	<!-- CSS Customization Overrides -->
 	<link rel="stylesheet" href="<?php  echo JURI::base(); ?>templates/<?php echo $this->template; ?>/css/custom-style-overrides.css" type="text/css" />
 	
 	<style> * {color:#ffffff;} </style>
+	
 </head>
 <body id="errorpage-styles">
  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -72,8 +77,9 @@ $this->direction = $doc->direction;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+					<span class="menu-text">Menu</span>
                 </button>
-				<div class=" logo col-xs-9 col-lg-12 col-md-12 col-sm-12">
+				<div class=" logo col-xs-9 col-lg-12 ">
 				
 						<?php
 						$position = 'logo'; // name of  the module you want to call
