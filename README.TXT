@@ -5,7 +5,7 @@ SideKick LP
 ABOUT THIS TEMPLATE
 This template is in actuality the "Landing Page" template designed by Start Bootstrap. It was designed as a free Mobile Responsive template based on Bootstrap 3. I modified it so that it could be used in a Joomla environment because of it's well designed layouts, mobile first philosophy, and the need for an effective yet simple approach for building client websites. The goal is to give designers familiar with css an easier and more consistent way of creating a mobile responsive site without having to create all sorts of crazy breakpoints, custom css classes, etc that are hard to remember and keep consistent among contractors who work on a site. Below you will find some notes and tips. Feel free to modify in harmony with the license the original template was released under. 
 
-Please let me know if you find any bugs are possible features to add that are missing. CONTACT ME VIA HTTP://DANNYLEARY.COM
+Please let me know if you find any bugs are possible features to add that are missing. 
 
 TO DO
 
